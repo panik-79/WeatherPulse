@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
+}
+
+body{
+    background-color: black;
+    background-image: url("background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(background.jpg);
+    background-size: cover;
+
+}
+
+.container{
+    border: none;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(10px);
+}
+
+h1{
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#city-input{
+    margin-top: 10px;
+    border: none;
+    color: black;
+    background: none;
+    margin-bottom: 20px;
+    text-align: start;
+    font-weight: 500;
+    border: 2px solid black;
+    width: 325px;
+    margin-right: 20px;
+
+}
+
+.button{
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    transition: .3s ease;
+    border: none;
+    color: black;
+    background-color: rgb(255, 145, 0);
+    transform: scale(1.05);
+}
+
+.icon:hover{
+    transform: scale(1.5);
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.temperature{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.temperature:hover{
+    transform: scale(1.4);
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info{
+    border-radius: 5px;
+    font-size: 20px;
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    justify-content: space-between;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.677);
+}
+
+.info:hover{
+    transform: scale(1.1);
+    transition: .3s ease;
+}
